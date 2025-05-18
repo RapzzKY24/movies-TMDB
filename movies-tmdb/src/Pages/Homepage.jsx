@@ -38,7 +38,6 @@ const HomePage = () => {
                     <div className="home-header">
                         <h1 className="home-title">Popular Movies</h1>
                     </div>
-
                     {loading ? (
                         <div className="loading-container">
                             <Spinner animation="border" variant="danger" className="netflix-spinner" />

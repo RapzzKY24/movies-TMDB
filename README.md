@@ -19,8 +19,8 @@ Fitur yang tersedia:
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/username/nama-repo-kamu.git
-cd nama-repo-kamu
+https://github.com/RapzzKY24/movies-TMDB.git
+cd movies-TMDB
 ```
 
 ### 2. Install dependencies

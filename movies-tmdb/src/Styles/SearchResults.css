@@ -1,0 +1,68 @@
+.search-results-container {
+    padding: 30px 0;
+    background-color: #141414;
+    min-height: calc(100vh - 70px);
+    color: #fff;
+}
+
+.search-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+    .search-header {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.back-button {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-color: #e50914;
+    color: #e50914;
+    align-self: flex-start;
+}
+
+.back-button:hover {
+    background-color: #e50914;
+    border-color: #e50914;
+    color: white;
+}
+
+.search-title {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.search-query {
+    color: #e50914;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.netflix-spinner {
+    width: 3rem;
+    height: 3rem;
+}
+
+.no-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.no-results-container h3 {
+    margin-bottom: 15px;
+    color: #e50914;
+}

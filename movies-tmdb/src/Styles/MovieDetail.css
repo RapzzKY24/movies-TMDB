@@ -1,0 +1,120 @@
+.movie-detail-container {
+    padding: 30px 0;
+    background-color: #141414;
+    min-height: calc(100vh - 70px);
+    color: #fff;
+}
+
+.back-button {
+    margin-bottom: 20px;
+    border-color: #e50914;
+    color: #e50914;
+}
+
+.back-button:hover {
+    background-color: #e50914;
+    border-color: #e50914;
+    color: white;
+}
+
+.movie-detail-content {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .movie-detail-content {
+        flex-direction: row;
+    }
+}
+
+.movie-poster-container {
+    margin-bottom: 30px;
+}
+
+.movie-detail-poster {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.movie-info-container {
+    padding: 0 15px;
+}
+
+.movie-detail-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #e50914;
+}
+
+.movie-detail-metadata {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.movie-detail-rating, .movie-detail-date {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.movie-info-icon {
+    color: #e50914;
+    margin-right: 8px;
+}
+
+.movie-detail-overview {
+    margin-bottom: 30px;
+}
+
+.movie-detail-overview h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #e50914;
+}
+
+.movie-detail-genres h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #e50914;
+}
+
+.genre-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genre-tag {
+    background-color: #e50914;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.netflix-spinner {
+    width: 3rem;
+    height: 3rem;
+}

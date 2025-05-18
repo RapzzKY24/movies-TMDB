@@ -1,0 +1,124 @@
+/* Netflix-inspired styling */
+body {
+  background-color: #141414;
+  color: #ffffff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+.netflix-header {
+  background-color: #141414;
+  padding: 10px 0;
+}
+
+.netflix-brand {
+  color: #E50914;
+  font-weight: bold;
+  font-size: 28px;
+  margin: 0;
+  cursor: pointer;
+}
+
+/* Search bar styles */
+.search-bar-container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.search-input-group {
+  display: flex;
+  align-items: center;
+  background-color: #333333;
+  border-radius: 4px;
+  overflow: hidden;
+  border: none;
+}
+
+.search-input {
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: #E50914;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Movie list styles */
+.movie-container {
+  padding: 20px 0;
+}
+
+/* Movie card styles */
+.movie-card {
+  background-color: #181818;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  height: 100%;
+  cursor: pointer;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+}
+
+.movie-title {
+  font-size: 1rem;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.8rem;
+}
+
+.movie-info-icon {
+  color: #E50914;
+}
+
+.movie-info-overview {
+  margin-top: 8px;
+}
+
+/* Loading spinner */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.netflix-spinner {
+  width: 4rem;
+  height: 4rem;
+}
+
+/* App container */
+.app-container {
+  min-height: 100vh;
+  background-color: #141414;
+  color: #ffffff;
+}

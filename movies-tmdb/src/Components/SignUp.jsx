@@ -17,7 +17,6 @@ const SignUp = () => {
         setLoading(true);
         
         try {
-            // Validate inputs
             if (!email || !password) {
                 throw new Error('Please enter both email and password');
             }
@@ -35,7 +34,6 @@ const SignUp = () => {
             const errorMessage = err.message;
             console.error('Signup error:', errorCode, errorMessage);
             
-            // Handle specific Firebase errors
             if (errorCode === 'auth/email-already-in-use') {
                 setError('This email is already registered');
             } else if (errorCode === 'auth/invalid-email') {

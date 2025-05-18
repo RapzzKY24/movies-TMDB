@@ -12,12 +12,11 @@ const Headers = ({ handleSearch }) => {
     const [user, setUser] = useState(null);
 
     useEffect(() => {
-        // Set up auth state listener
+       
         const unsubscribe = auth.onAuthStateChanged((currentUser) => {
             setUser(currentUser);
         });
 
-        // Clean up subscription
         return () => unsubscribe();
     }, []);
 

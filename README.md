@@ -45,6 +45,19 @@ VITE_TMDB_API_KEY=your_tmdb_api_key
 npm run dev
 ```
 
+### 5. Screenshoot
+[`
+
+![Image](https://github.com/user-attachments/assets/8735f220-b764-4ffc-acdf-d18a4b645a87)
+
+![Image](https://github.com/user-attachments/assets/22856a35-e83e-4754-b1e9-3be222015f4f)
+
+![Image](https://github.com/user-attachments/assets/9347bdb7-276c-4d68-a5d9-34441d8df470)
+
+![Image](https://github.com/user-attachments/assets/450fb6fe-029f-4b2f-89df-88cc12ddd49a)
+
+![Image](https://github.com/user-attachments/assets/36e16ca4-8d5e-45a3-8c73-262028ae361c)
+
 Lalu buka browser dan akses:
 
 ```

@@ -46,7 +46,6 @@ npm run dev
 ```
 
 ### 5. Screenshoot
-[`
 
 ![Image](https://github.com/user-attachments/assets/8735f220-b764-4ffc-acdf-d18a4b645a87)
 

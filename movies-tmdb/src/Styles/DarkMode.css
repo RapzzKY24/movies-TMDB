@@ -1,0 +1,65 @@
+:root {
+    --dark-mode-bg: #141414;
+    --dark-mode-text: #fff;
+    --dark-mode-border: #333;
+    --dark-mode-input-bg: #333;
+    --dark-mode-input-text: #fff;
+    --dark-mode-btn-bg: #e50914;
+    --dark-mode-btn-text: #fff;
+    
+    --light-mode-bg: #f5f5f5;
+    --light-mode-text: #333;
+    --light-mode-border: #ddd;
+    --light-mode-input-bg: #fff;
+    --light-mode-input-text: #333;
+    --light-mode-btn-bg: #e50914;
+    --light-mode-btn-text: #fff;
+}
+
+[data-theme="dark"] {
+    background-color: var(--dark-mode-bg);
+    color: var(--dark-mode-text);
+}
+
+[data-theme="light"] {
+    background-color: var(--light-mode-bg);
+    color: var(--light-mode-text);
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body[data-theme="dark"] {
+    background-color: var(--dark-mode-bg);
+    color: var(--dark-mode-text);
+}
+
+body[data-theme="light"] {
+    background-color: var(--light-mode-bg);
+    color: var(--light-mode-text);
+}
+
+/* Dark mode card styles */
+[data-theme="dark"] .card {
+    background-color: #222;
+    border-color: var(--dark-mode-border);
+}
+
+[data-theme="light"] .card {
+    background-color: #fff;
+    border-color: var(--light-mode-border);
+}
+
+/* Dark mode input styles */
+[data-theme="dark"] input {
+    background-color: var(--dark-mode-input-bg);
+    color: var(--dark-mode-input-text);
+    border-color: var(--dark-mode-border);
+}
+
+[data-theme="light"] input {
+    background-color: var(--light-mode-input-bg);
+    color: var(--light-mode-input-text);
+    border-color: var(--light-mode-border);
+}
